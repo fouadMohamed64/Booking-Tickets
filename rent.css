@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&family=Ubuntu:ital@1&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* start header */
+header{
+    max-width: 80%;
+    margin: auto;
+    padding: 30px 0;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+} 
+header nav h3{
+    font-size: 30px;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    margin: 0 25px;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+}
+header nav ul li a:hover{
+    color: #ccc;
+}
+header nav ul li .border{
+    border-top: 3px solid #ccc;
+    color: #ccc;
+    padding-top: 10px;
+}
+/* end header */
+
+/* start main section */
+.parent .logo{
+    background: url(img/rent_venue_bg.jpg);
+    height: 300px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+.parent .logo h2{
+    padding-top: 5rem;
+    font-size: 40px;
+    font-weight: bold;
+}
+.parent .links,
+.parent .content{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    border-bottom: 1px solid #00000029;
+}
+.parent .links ul{
+    display: flex;
+    gap: 30px;
+}
+.parent .links ul .border{
+    border-top: 2px solid #6c6c6c;
+    padding-top: 40px;
+    color: #ccc;
+}
+.parent .links ul li{
+    list-style: none;
+}
+.parent .links ul li a{
+    text-decoration: none;
+    color: black;
+}
+.parent .links ul + a{
+    text-decoration: none;
+    color: #fff;
+    background:  #343a3e;
+    padding: 15px;
+    font-size: 14px;
+    transition: 0.5s;
+}
+.parent .links ul + a:hover{
+    opacity: 0.9;
+}
+.parent .content{
+    border: none;
+}
+.parent .content .right-content h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.parent .content .right-content p{
+    font-size: 14px;
+    color: #000000c2;
+    line-height: 2;
+    padding: 20px 0;
+    padding-right: 40px;
+    margin-bottom: 30px;
+}
+.parent .content .right-content span{
+    color: #0000008f;
+    margin-right: 10rem;
+    display: inline-block;
+}
+.parent .content .map-img img{
+    margin-top: 10rem;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.parent .content .map-img p{
+    font-size: 14px;
+    padding: 15px 0;
+}
+.parent .content .map-img p i{
+    margin-left: 15px;
+    font-size: 12px;
+}
+section .regestration{
+    width: 80%;
+    margin: auto;
+}
+section .regestration h2{
+    padding: 30px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+section .regestration form input{
+    width: 30%;
+    padding: 10px 5px;
+    margin-right: 20px;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid #ccccccb3;
+}
+section .regestration form textarea{
+    width: 62%;
+    height: 10rem;
+    margin: 20px 0;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccccccb3;
+}
+section .regestration form input[type = "submit"]{
+    display: block;
+    width: fit-content;
+    padding: 10px 20px;
+    margin-bottom: 5rem;
+    background: #343a3e;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+section .regestration form input[type = "submit"]:hover{
+    opacity: 0.8;
+}
+/* end main section */
+
+/* start form */
+.footer-form form{
+    background: #7c838bbc;
+    padding: 40px;
+    color: #fff;
+}
+.footer-form label{
+    margin-left: 10rem;
+    font-size: 20px;
+}
+.footer-form input[type = "email"]{
+    background: transparent;
+    margin-left: 7rem;
+    width: 40%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+.footer-form ::placeholder{
+    color: #fff;
+    padding: 7px;
+    border-bottom: 1px solid #fff;
+}
+.footer-form input[type = "submit"]{
+    margin-left: 30px;
+    padding: 7px 40px;
+    background: #343a3e;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.footer-form input[type = "submit"]:hover{
+    background: #343a3e96;
+    outline: none;
+    border: transparent;
+}
+/* end form */
+
+/* start footer */
+footer{
+    padding: 7rem 0;
+}
+footer .parent{
+    display: flex;
+    justify-content: space-around;
+}
+footer .parent .footer-content h3{
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+footer .parent .footer-content p,
+footer .parent .footer-content a{
+    font-size: 14px;
+    line-height: 25px;
+    color: #a2a1a1;
+    text-decoration: none;
+}
+footer .parent .footer-content ul li{
+    list-style: none;
+}
+footer .copy-write{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 9rem 2rem;
+    color: #a2a1a1;
+}
+footer .copy-write span{
+    color: #000000a6;
+}
+footer hr{
+    width: 81%;
+    margin: auto;
+}
+footer .logo{
+    width: 81%;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .logo h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+footer .logo ul{
+    display: flex;
+}
+footer .logo ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+footer .logo ul li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+}
+footer .logo ul li a:hover{
+    color: #a2a1a1;
+}
+footer .logo .icon{
+    display: flex;
+}
+footer .logo .icon i{
+    background: #000;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+footer .logo .icon i:hover{
+    background: #a2a1a1;
+    color: #000;
+}
+/* end footer */

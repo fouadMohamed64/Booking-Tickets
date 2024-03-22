@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&family=Ubuntu:ital@1&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* start header */
+header{
+    max-width: 80%;
+    margin: auto;
+    padding: 30px 0;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+} 
+header nav h3{
+    font-size: 30px;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    margin: 0 25px;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+}
+header nav ul li a:hover{
+    color: #ccc;
+}
+header nav ul li .border{
+    border-top: 3px solid #ccc;
+    color: #ccc;
+    padding-top: 10px;
+}
+/* end header */
+
+/* start main seciton */
+.parent  .radio-header{
+    background: url(img/about-us/about_bg.jpg) no-repeat;
+}
+.parent  .radio-header .radio-content{
+    padding-left: 5em;
+    padding-top: 3.5em;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 2em;
+}
+.parent .radio-header .pics{
+    display: flex;
+    justify-content: center;
+}
+.parent .radio-header .pics img{
+    margin-top: 5.7em;
+}
+.parent .radio-header .pics .map h3{
+    font-size: 25px;
+    padding: 25px;
+}
+.parent .radio-header .pics .map p{
+    font-size: 18px;
+    padding: 8px 0 0 25px;
+}
+.parent .radio-header .pics .map .ticket{
+    color: #7c838b;
+    margin: 10px 0;
+}
+.parent .radio-header .pics .map a{
+    background: #343a3e;
+    color: #fff;
+    padding: 12px 18px;
+    margin-left: 50px;
+    margin-top: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.parent .radio-header .pics .map a:hover{
+    opacity: 0.8;
+}
+.parent .content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 10rem;
+}
+.parent .content .left-content h2,
+.parent .content .right-content h2{
+    font-size: 30px;
+    padding: 20px 0;
+}
+.parent .content .right-content h2 i{
+    font-size: 20px;
+}
+.parent .content .left-content h3{
+    font-size: 20px;
+    padding: 20px 0;
+}
+.parent .content .left-content p{
+    font-size: 14px;
+    color: #000000b6;
+    line-height: 2;
+    width: 80%;
+}
+.parent .content .left-content p span{
+    color: #ccc;
+    margin-left: 15px;
+}
+.parent .content .right-content{
+    border: 1px solid #00000014;
+    width: 40%;
+    padding: 20px;
+    position: relative;
+}
+.parent .content .right-content h5{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.parent .content .right-content p{
+    color: #000000ac;
+    line-height: 1.5;
+}
+.parent .content .right-content .right .fa-solid{
+    color: #fff;
+    background:  #343a3e;
+    padding: 10px;
+    font-size: 12px;
+    position: absolute;
+    right: 20px;
+    transition: 0.5s;
+}
+.parent .content .right-content .right .fa-solid:hover{
+    opacity: 0.8;
+}
+.parent .imges{
+    background: #dddddd8f;
+}
+.parent .imges h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 3rem 10rem;
+}
+.parent .imges .img-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.parent .img-box .box{
+    background: #fff;
+    max-width: 400px;
+    padding-bottom: 20px;
+    margin-bottom: 5rem;
+}
+.parent .img-box .box img{
+    width: 100%;
+}
+.parent .img-box .box .big{
+    height: 237px;
+}
+.parent .img-box .box .height{
+    height: 237px;
+}
+.parent .img-box .box h5{
+    padding: 20px;
+}
+.parent .img-box .box h3{
+    padding: 0 20px 20px 20px;
+    font-size: 25px;
+}
+/* end main seciton */
+
+/* start form */
+form{
+    background: #7c838bbc;
+    padding: 40px;
+    color: #fff;
+}
+label{
+    margin-left: 10rem;
+    font-size: 20px;
+}
+input[type = "email"]{
+    background: transparent;
+    margin-left: 7rem;
+    width: 40%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+::placeholder{
+    color: #fff;
+    padding: 7px;
+    border-bottom: 1px solid #fff;
+}
+input[type = "submit"]{
+    margin-left: 30px;
+    padding: 7px 40px;
+    background: #343a3e;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    transition: 0.5s;
+}
+input[type = "submit"]:hover{
+    background: #343a3e96;
+    outline: none;
+    border: transparent;
+}
+/* end form */
+
+
+/* start footer */
+footer{
+    padding: 7rem 0;
+}
+footer .parent{
+    display: flex;
+    justify-content: space-around;
+}
+footer .parent .footer-content h3{
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+footer .parent .footer-content p,
+footer .parent .footer-content a{
+    font-size: 14px;
+    line-height: 25px;
+    color: #a2a1a1;
+    text-decoration: none;
+}
+footer .parent .footer-content ul li{
+    list-style: none;
+}
+footer .copy-write{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 9rem 2rem;
+    color: #a2a1a1;
+}
+footer .copy-write span{
+    color: #000000a6;
+}
+footer hr{
+    width: 81%;
+    margin: auto;
+}
+footer .logo{
+    width: 81%;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .logo h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+footer .logo ul{
+    display: flex;
+}
+footer .logo ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+footer .logo ul li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+}
+footer .logo ul li a:hover{
+    color: #a2a1a1;
+}
+footer .logo .icon{
+    display: flex;
+}
+footer .logo .icon i{
+    background: #000;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+footer .logo .icon i:hover{
+    background: #a2a1a1;
+    color: #000;
+}
+/* end footer */
